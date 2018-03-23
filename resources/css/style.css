@@ -203,6 +203,10 @@ footer span{
     display: none;
   }
 
+  .products, .business-info{
+    justify-content: center;
+  }
+
   .product, .info{
     width: 90%
   }
@@ -215,8 +219,8 @@ footer span{
     margin-bottom: 0.5rem;
   }
 
-  footer{
-    text-align: center;
+  footer .container{
+    justify-content: center;
   }
 
 }
